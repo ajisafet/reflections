@@ -19,3 +19,17 @@ As a means of version control
 How do the diagrams help you visualize the branch structure?
 It helps you see the interlock between the branches and where they diverge.
 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Whne merging it copies the fdifferences between files. Also the merges moves the 
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Git's automatic mergin 
+Pros: Makes merging easier and quicker
+Cons: Can make merges that don't make sense and can break code
+
+Manual merging
+Pros: Allows the developers who have made conflicting changes to decide how to resolve conflicts with less possibility for errors/bugs. Gives developers more control
+Cons: Some conflicts may be easily resolved by auto-merging but may be difficult for Git to decide
+
+
