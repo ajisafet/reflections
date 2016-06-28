@@ -44,3 +44,11 @@ git remote -v - show all remote repository
 git push <remote name> <branch name>
 
 
+git pull origin master ==> git fetch origin
+                           git merge master origin/master
+
+git log origin/master
+git diff origin/master master
+
+
+
