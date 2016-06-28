@@ -1,0 +1,46 @@
+How did viewing a diff between two versions help you spot the bug?
+By focussing on the differences between the files it makes it easier to spot bugs esp large files
+Improves prductivity by enabling developers see any changes between versions easily and resolve any differences quickly
+
+
+git checkout - revert to previous commit temporarily. Means resetting all your files to how they were when the commit was made.
+Detached head state refers to the fact that you are no longer working with the latest commit when the gt checkout command is run.
+
+$ git checkout  b0678b161fcf74467ed3a63110557e3d6229cfa6
+Note: checking out 'b0678b161fcf74467ed3a63110557e3d6229cfa6'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+HEAD is now at b0678b1... Revert controls
+
+
+git status
+
+The staging area
+This is Git's way of allowing you more control of what can be commited to the repository.
+As the idea for each commit is to make it correspond to one logical change, you can edit several documents and then select which documents to be included in a commit.
+This is done by adding documents to the Staging area. Only documents in the staging area are committed when the commit command is issued.
+The command is git add <filename>.
+Use ythe git status command to see which files are in the staging area.
+
+
+got diff - diff between woking directory and staging area
+got diff --staged - diff between sstaging area most recent commit
+git diff commit1 commit2 - 
+
+git log --graph --oneline master coins - show chronological order for commits in branches
+
+git remote -- list all remote reposotory mapped to local repository
+git remote add <remote name> <remote repository name> -- add a remote name and map it to a remote reposotory
+git remote -v - show all remote repository
+
+git push <remote name> <branch name>
+
+
