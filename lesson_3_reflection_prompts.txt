@@ -23,7 +23,8 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+   This helps you to keep a local copy of the remote repo when you are not online or don't have remote access to to the remote repo.
+   Also this helps to keep track of differences between your local repo and the remote repo.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
