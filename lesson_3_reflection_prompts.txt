@@ -23,8 +23,8 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-   This helps you to keep a local copy of the remote repo when you are not online or don't have remote access to to the remote repo.
-   Also this helps to keep track of differences between your local repo and the remote repo.
+   This helps you to keep a local copy of the remote repo when you are not online or won't have remote access to the remote respo.
+   Also this helps to keep track of differences between your local repo and the remote repo when you are not online.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
@@ -33,5 +33,9 @@ and what would be harder?
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
+Changes in sepasrate branch
+To prevent frequent conflicts when collaborating with others.
+To complete a new/experimental feature which is not ready for release.
 
-    Fill in your answer here
+Changes in master
+Easier when working solo on a project.
